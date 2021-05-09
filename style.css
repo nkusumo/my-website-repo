@@ -1,3 +1,9 @@
 body {
     background: lightgrey;
+    font-family: Optima, sans-serif;
   } 
+
+#header {
+    font-family: Verdana, sans-serif;
+    font-weight: normal;
+}
