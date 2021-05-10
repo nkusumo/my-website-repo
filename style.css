@@ -4,9 +4,7 @@ body {
   } 
 
 #header {
-=    font-family: Verdana, sans-serif;
-    font-weight: normal;
-    background: white
+    background: white;
 }
 
 h3 {
@@ -14,6 +12,7 @@ h3 {
   text-align: center;
   font-size: 24px;
   color: white;
+  grid-column: 2;
 }
 
 img {
@@ -23,25 +22,21 @@ img {
 }
 
 .place {
+  display: grid;
+  grid-template-columns: 1fr 600px 1fr;
   position: relative;
-  word-wrap: normal;
-  text-align: center;
-  max-width: 100%;
+  justify-items: center;
 }
 
 .img-text {
-  /* position:relative; */
-  margin-top: 50px;
-  max-width: 500px
+  grid-row: 2;
+  grid-column: 2;
   text-align: center;
+  max-width: 600px;
+  margin-top: 50px;
 }
 
 .place img {
-  /* position: relative; */
-  /* top: -50px; */
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  margin-top: -100px;
+  grid-row: 2;
+  grid-column: 2;
 }
